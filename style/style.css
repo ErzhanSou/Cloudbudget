@@ -20,6 +20,7 @@ a{
     padding: 257px 431px 187px;
 }
 .container{
+    margin: 0 auto;
     max-width: 1110px;
     padding: 0 10px;
 }
@@ -30,7 +31,9 @@ a{
 .col6{
     width: 50%;
 }
-
+.col3{
+    width: 25%;
+}
 
 
 .hero:before {
@@ -212,6 +215,7 @@ a{
 }
 .overview_cards{
     display: grid;
+    grid-column-gap: 30px;
     grid-template-columns: repeat(3, 1fr);
 }
 .card123{
@@ -258,4 +262,202 @@ a{
     line-height: 150%;
     text-align: center;
     color: #ED4C5C;
+}
+
+.technology{
+    padding: 63px 0 120px;
+    background: #FFFFFF;
+}
+.technology .row{
+    margin: 0 -15px;
+}
+.technology_title{
+    margin-top: 52px;
+}
+.col3{
+    padding: 0 15px;
+}
+.tech_num{
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 120px;
+    color: rgba(16, 16, 16, 0.08);
+}
+.tech_card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tech_title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin: 19px 0 10px;
+}
+.tech_desc{
+    width: 191px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+}
+.icons{
+    top: 75px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.focus{
+    padding: 95px 0;
+    background: #ED4C5C;
+}
+.focus_main_div{
+    margin-top: 28px;
+}
+.gallery img{
+    border-radius: 15px;
+}
+.focus_title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+    width: 445px;
+}
+.focus_desc{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #FFFFFF;
+    margin: 42px 0 50px;
+    width: 445px;
+}
+.logos_part{
+    display: flex;
+    align-items: center;
+}
+.logos_part svg{
+    margin-right: 26px;
+}
+.gallery{
+    position: relative;
+    z-index: 1;
+}
+.main_img{
+    z-index: 1;
+}
+.bc_img1{
+    position: absolute;
+    z-index: -1;
+    top: 22px;
+    left: -44px;
+    right: 0;
+    margin: 0 auto;
+}
+.bc_img2{
+    position: absolute;
+    z-index: -1;
+    top: 22px;
+    left: 106px;
+    right: 0;
+    margin: 0 auto;
+}
+
+.regis{
+    padding: 117px 0 123px;
+    background: #FFFFFF;
+}
+.redis_desc{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    width: 434px;
+    color: #000000;
+}
+.regis_title{
+    text-align: left;
+}
+.regis_form{
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 20px 0 20px 31px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 1);
+    width: 255px;
+    height: 60px;
+}
+.regis_form:not(:last-child){
+    margin-right: 30px;
+}
+.regis_phone_form{
+    width: 540px;
+    height: 60px;
+}
+#firstname::placeholder{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+}
+.regis_select{
+    width: 540px;
+    height: 60px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 20px 0 21px 31px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    appearance: none;
+    background: url("../images/ChevronDown(E70D).svg") no-repeat center right;
+    background-position-x: calc(100% - 26px);
+}
+.regis_select option{
+    color: #000000;
+}
+.redis_submit_btn{
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 160px;
+    height: 50px;
+}
+.name_users{
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+}
+.phone{
+    margin: 24px 0;
+}
+.service{
+    margin-bottom: 27px;
+}
+.select_dis{
+    display: none;
+    background-position-x: calc(100% - 26px);
+    color: rgba(19, 39, 67, 0.5);
 }
