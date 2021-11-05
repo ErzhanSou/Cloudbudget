@@ -148,6 +148,10 @@ a{
 .lang-and_sign_up{
     display: flex;
 }
+.logo{
+    display: flex;
+    align-items: center;
+}
 
 
 .video_main_text{
@@ -274,7 +278,7 @@ a{
 .technology_title{
     margin-top: 52px;
 }
-.col3{
+.row .col3{
     padding: 0 15px;
 }
 .tech_num{
@@ -460,4 +464,63 @@ a{
     display: none;
     background-position-x: calc(100% - 26px);
     color: rgba(19, 39, 67, 0.5);
+}
+
+.footer{
+    padding: 85px 0;
+    background: #FAFAFA;
+}
+.footer_title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-bottom: 33px;
+}
+.footer_link{
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #000000;
+}
+.footer_address{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+}
+.footer_address_mail{
+    display: block;
+}
+.footer_address_tel{
+    display: block;
+    margin: 11px 0 20px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #121212;
+}
+.footer_social_icons i{
+    margin-right: 16px;
+}
+.footer_nav{
+    margin-top: -5px;
+}
+.copyright{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+    margin-top: 141px;
+}
+.footer_img{
+    margin-left: 6px;
+}
+.footer .row{
+    margin: 0 -15px;
+}
+.row .col3{
+    padding: 0 -15px;
 }
