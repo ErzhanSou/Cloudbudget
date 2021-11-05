@@ -1,0 +1,419 @@
+@media (max-width: 1280px) {
+    .overview{
+        padding: 65px 85px 229px;
+    }
+    .nav_bar{
+        margin: 0 68px 0 75px;
+
+    }
+}
+@media (max-width: 1230px) {
+    .overview{
+        padding: 65px 15px 229px;
+    }
+    .nav_bar{
+        padding: 0 2px 0 2px
+    }
+    .video_sect{
+        padding: 94px 178px 95px 117px;
+    }
+    .header{
+        left: 137.6px;
+        right: 150px;
+    }
+}
+@media (max-width: 1180px) {
+    .header{
+        left: 100px;
+        right: 107px;
+    }
+    .overview{
+        padding: 65px 30px 229px;
+    }
+}
+@media (max-width: 1130px) {
+    .header{
+        left: 101px;
+        right: 107px;
+    }
+    .overview{
+        padding: 65px 30px 229px;
+    }
+    .card123{
+        width: 330px;
+    }
+    .card123 img{
+        width: 330px;
+    }
+}
+@media (max-width: 1080px) {
+    .header{
+        left: 70px;
+        right: 57px;
+    }
+    .overview{
+        padding: 65px 8px 229px;
+    }
+    .hero_title{
+        font-size: 59px;
+    }
+    .card123{
+        width: 325px;
+        height: 232.141px;
+    }
+    .card123 img{
+        width: 325px;
+        height: 232.141px;
+    }
+    .name_users{
+        width: 492px;
+    }
+    .regis_phone_form{
+        width: 492px;
+    }
+    .regis_select{
+        width: 492px;
+    }
+    .video_sect{
+        padding: 94px 144px 95px 73px;
+    }
+}
+@media (max-width: 1024px) {
+    .container{
+        max-width: 990px;
+    }
+    .header_container{
+        max-width: 990px;
+    }
+    .h_link{
+        margin-right: 15px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .nav_bar{
+        margin: 0 42px 0 51px;
+        display: flex;
+        align-items: center;
+    }
+    .log{
+        margin-left: 15px;
+        font-size: 13px;
+        line-height: 17px;
+        width: 86px;
+        height: 37px;
+    }
+    .header_logo{
+        font-size: 16px;
+    }
+    .header{
+        left: 50px;
+        right: 50px;
+    }
+    .hero_title{
+        font-size: 58px;
+        line-height: 70px;
+    }
+    .hero_price_title{
+        width: 280px;
+        font-size: 19px;
+        line-height: 135%;
+    }
+    .hero_btn{
+        width: 140px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .video_sect{
+        padding: 94px 98px 95px 23px;
+    }
+    .overview{
+        padding: 65px 12px 126px;
+    }
+    .overview_sub_title{
+        line-height: 43px;
+        margin-bottom: 50px;
+        font-size: 30px;
+    }
+    .sub_card123{
+        padding: 16px 32px 25px;
+        bottom: -65px;
+        left: 19px;
+        max-width: 181px;
+        max-height: 198px;
+    }
+    .card123{
+        width: 310px;
+        height: 250px;
+    }
+    .card123 img{
+        width: 280px;
+        height: 200px;
+    }
+    .name_users{
+        width: 491px;
+    }
+    .regis_phone_form{
+        width: 491px;
+    }
+    .regis_select{
+        width: 491px;
+    }
+    .focus_title{
+        font-size: 29px
+    }
+    .focus_desc{
+        font-size: 13px;
+    }
+}
+@media (max-width: 960px) {
+    .container{
+        max-width: 940px;
+    }
+    .nav_bar{
+        margin: 0 31px 0 32px;
+    }
+    .hero_title{
+        font-size: 50px;
+    }
+    .hero_price_title{
+        font-size: 17px;
+    }
+    .video_title{
+        font-size: 29px;
+    }
+    .video_desc{
+        width: 400px;
+        font-size: 13px;
+        line-height: 132%;
+    }
+    .video_bg{
+        width: 400px;
+        height: 300px;
+        background: url(../images/Video_bg.png) center/cover;
+    }
+    .overview{
+        padding: 65px 23px 171px;
+    }
+    .overview_sub_title{
+        margin-bottom: 30px;
+    }
+    .card123 img{
+        width: 257px;
+        height: 177px;
+    }
+    .card123{
+        width: 257px;
+        height: 177px;
+    }
+    .sub_card123{
+        padding: 27px 19px 26px;
+        bottom: -131px;
+    }
+    .card_title{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .card_desc{
+        font-size: 12px;
+        line-height: 120%;
+        margin: 10px 0 10px;
+    }
+    .main_img img{
+        width: 400px;
+    }
+    .bc_img1 .bc_img2 img{
+        width: 350px;
+    }
+    .bc_img2{
+        left: 93px;
+    }
+    .regis_form{
+        width: 210px;
+    }
+    .name_users{
+        width: 450px;
+    }
+    .regis_phone_form{
+        width: 450px;
+    }
+    .regis_select{
+        width: 450px;
+    }
+}
+@media (max-width: 800px) {
+    .container{
+        max-width: 760px;
+    }
+    .nav_bar{
+        display: none;
+    }
+    .header_container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero{
+        padding: 257px 32px 187px;
+    }
+    .hero_title{
+        font-size: 45px;
+    }
+    .video_title{
+        font-size: 21px;
+        width: 356px;
+    }
+    .video_desc{
+        width: 326px;
+        font-size: 13px;
+    }
+    .video_bg{
+        width: 350px;
+        height: 245px;
+    }
+    .video_play{
+        top: 87px;
+    }
+    .overview{
+        padding: 36px 2px 171px;
+    }
+    .card123{
+        width: 248px;
+        height: 165px;
+    }
+    .card123 img{
+        width: 251px;
+        height: 168px;
+    }
+    .sub_card123{
+        padding: 16px 21px 26px;
+        bottom: -113px;
+        top: 132px;
+        left: 15px;
+    }
+    .overview_cards{
+        grid-column-gap: 15px;
+    }
+    .tech_num{
+        font-size: 60px;
+        line-height: 90px;
+    }
+    .icons{
+        top: 49px;
+    }
+    .tech_title{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .tech_desc{
+        width: 165px;
+    }
+    .focus_title{
+        width: 378px;
+        font-size: 29px;
+    }
+    .focus_desc{
+        width: 322px;
+    }
+    .main_img {
+        width: 340px;
+    }
+    .bc_img1 img{
+        width: 280px;
+    }
+    .bc_img1{
+        top: 20px
+    }
+    .bc_img2{
+        top: 20px;
+    }
+    .bc_img2 img{
+        width: 280px;
+    }
+    .redis_desc{
+        width: 336px;
+    }
+    .regis_form{
+        width: 170px;
+        font-size: 14px;
+        padding: 7px 0 7px 18px;
+    }
+    .regis_form:not(:last-child){
+        margin-right: 25px;
+    }
+    .name_users{
+        width: 365px;
+    }
+    #firstname::placeholder{
+        font-size: 14px;
+    }
+    .regis_phone_form{
+        width: 365px;
+    }
+    .regis_select{
+        width: 365px;
+        font-size: 14px;
+        padding: 7px 0 7px 18px;
+    }
+    .redis_submit_btn{
+        line-height: 17px;
+        width: 145px;
+        height: 45px;
+    }
+}
+@media (max-width: 720px){
+    .container{
+        max-width: 680px;
+    }
+    .video_desc{
+        width: 302px;
+    }
+    .video_bg{
+        width: 300px;
+        height: 200px;
+    }
+    .video_play{
+        top: 65px;
+    }
+    .video_play svg{
+        font-size: 50px;
+    }
+    .overview_sub_title{
+        font-size: 25px;
+    }
+    .overview{
+        padding: 36px 2px 64px;
+    }
+    .overview_sub_title{
+        font-size: 30px;
+    }
+    .overview_cards{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .card123 img{
+        width: 445px;
+        height: 325px;
+    }
+    .sub_card123{
+        max-width: 181px;
+        max-height: 198px;
+    }
+    .card_title{
+        font-size: 20px;
+    }
+    .card_desc{
+        font-size: 15px;
+    }
+    .card_link{
+        font-size: 16px;
+    }
+    .card123{
+        width: 400px;
+        height: 365px;
+    }
+    .sub_card123{
+        max-width: 278px;
+        max-height: 125px;
+        left: 76px;
+        top: 173px;
+    }
+}
